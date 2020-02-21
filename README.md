@@ -1,10 +1,9 @@
 ## 관련자료
 
  - PDF 교재: 
-https://github.com/event-storming/docs/blob/master/__%EA%B5%90%EC%9E%AC-Event%20Storming%20based%20MSA%20training_3rd_Jan_2020.pdf
 
 - 실습스크립트 룩업:
-https://workflowy.com/s/msa/27a0ioMCzlpV04Ib
+https://workflowy.com/s/msa/27a0ioMCzlpV04Ib#/69f581576ade
 
 - 페이스북 그룹 : 
 https://www.facebook.com/groups/cloudswmoding  
