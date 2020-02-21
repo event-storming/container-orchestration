@@ -15,7 +15,7 @@ http://eventstorming2code.io/
 https://portal.azure.com/?quickstart=true#home
 
 
-## 강의흐름 및 교재(인쇄물) Page 안내  
+## 강의순서 및 교재(인쇄물) Page 안내  
 - 개념, 워크로드 분산엔진: page 259
 - Local Setup for Docker : Page 31
 - Docker Practice: Page 47
