@@ -24,3 +24,6 @@ https://portal.azure.com/?quickstart=true#home
 - Real MSA Application Deployment : 별도 파일 다운로드
 - Kubernetes Architecture: Page 68
 - Service Mesh: Page 224
+
+## 실습 시, 유용한 Tips
+- Copy & Paste : 기본적으로 우분투에서 마우스 Drag 시 자동으로 복사되며, 붙여넣기는 마우스 오른쪽 버튼 클릭 
