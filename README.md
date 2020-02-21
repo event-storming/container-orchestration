@@ -1,6 +1,6 @@
 ## 관련자료
 
- - PDF 교재: 
+ - PDF 교재: https://github.com/event-storming/Container-Orchestration/blob/master/__%EA%B5%90%EC%9E%AC-Container_Orchestration_(1%EC%B0%A8)_modified.pdf
 
 - 실습스크립트 룩업:
 https://workflowy.com/s/msa/27a0ioMCzlpV04Ib#/69f581576ade
