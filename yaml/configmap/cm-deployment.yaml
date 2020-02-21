@@ -1,0 +1,29 @@
+apiVersion: apps/v1beta2
+kind: Deployment
+metadata:
+  name: cm-deployment
+spec:
+  replicas: 1
+  minReadySeconds: 5
+  selector:
+    matchLabels:
+      app: cm-literal
+  template:
+    metadata:
+      name: cm-literal-pod
+      labels:
+        app: cm-literal
+    spec:
+      containers:
+      - name: cm
+        image: uengineorg.azurecr.io/cm-sandbox:v1
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8080
+        env:
+        - name: LANGUAGE
+          valueFrom:
+            configMapKeyRef:
+               name: hello-cm
+               key: language
+

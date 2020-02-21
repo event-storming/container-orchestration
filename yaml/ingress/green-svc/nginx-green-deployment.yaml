@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-green-deployment
+  namespace: ingress-basic
+  labels:
+    app: green-nginx-deploy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: green-nginx
+  template:
+    metadata:
+      labels:
+        app: green-nginx
+    spec:
+      containers:
+      - name: nginx
+        image: uengineorg.azurecr.io/nginx-green:latest
+        ports:
+        - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-green-svc
+  namespace: ingress-basic
+spec:
+  selector:
+    app: green-nginx
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+  type: NodePort
