@@ -14,23 +14,13 @@ http://eventstorming2code.io/
 - Azure 클라우드 : 
 https://portal.azure.com/?quickstart=true#home
 
-- Quick Tour 실습 난이도 조사  :
-https://docs.google.com/forms/d/e/1FAIpQLSe0nb4_C8myV23BNgqRevQvoNCEP6OSIlxDtVfRgcunxW39Cw/viewform
 
-## 참고도서
-
-- Overall MSA Design patterns: 
-    https://www.manning.com/books/microservices-patterns
-
-- Microservice decomposition strategy:
-   - DDD distilled: https://www.oreilly.com/library/view/domain-driven-design-distilled/9780134434964/
-   - Event Storming: https://leanpub.com/introducing_eventstorming
-
-- Database Design in MSA: 
-   - Lightly: https://www.confluent.io/wp-content/uploads/2016/08/Making_Sense_of_Stream_Processing_Confluent_1.pdf
-   - Deep dive: https://dataintensive.net/?fbclid=IwAR3OSWkhqRjLI9gBoMpbsk-QGxeLpTYVXIJVCSaw_A5eYrBDc0piKSm4pMM
-
-- API design and REST: 
-    https://pepa.holla.cz/wp-content/uploads/2016/01/REST-in-Practice.pdf
-
-
+## 강의흐름 및 교재(인쇄물) Page 안내  
+- 개념, 워크로드 분산엔진: page 259
+- Local Setup for Docker : Page 31
+- Docker Practice: Page 47
+- Azure Setup: Page 21
+- Kubernetes Basic: Page 95
+- Real MSA Application Deployment : 별도 파일 다운로드
+- Kubernetes Architecture: Page 68
+- Service Mesh: Page 224
