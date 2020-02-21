@@ -16,14 +16,14 @@ https://portal.azure.com/?quickstart=true#home
 
 
 ## 강의순서 및 교재(인쇄물) Page 안내  
-- 개념, 워크로드 분산엔진: page 259
-- Local Setup for Docker : Page 31
-- Docker Practice: Page 47
-- Azure Setup: Page 21
-- Kubernetes Basic: Page 95
+- page 259 : 워크로드 분산엔진 
+- Page  31 : Local Setup for Docker 
+- Page  47 : Docker Practice 
+- Page  21 : Azure Setup 
+- Page  95 : Kubernetes Basic 
 - Real MSA Application Deployment : 별도 파일 다운로드
-- Kubernetes Architecture: Page 68
-- Service Mesh: Page 224
+- Page  68 : Kubernetes Architecture 
+- Page 224 : Service Mesh 
 
 ## 실습 시, 유용한 Tips
 - Copy & Paste : 기본적으로 우분투에서 마우스 Drag 시 자동으로 복사되며, 붙여넣기는 마우스 오른쪽 버튼 클릭 
