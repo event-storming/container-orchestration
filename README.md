@@ -3,6 +3,7 @@
  - 실습(40%) - Labs(80%)
              - 설치(20%) : Cloud Client, Kubernetes Client, CLI tool,,             
 
+<br/>
 
 ## 관련자료
 
@@ -25,9 +26,9 @@ https://portal.azure.com/?quickstart=true#home
 - Copy & Paste : 마우스 더블클릭(선택), 오른쪽 버튼으로 복사 & 붙여넣기(마우스 더블클릭 시 자동으로 복사되며, 마우스 오른쪽 버튼으로 붙여넣기 가능)
 <h5>
 - tmux 사용 시, 주요 치트키
-  - 창 수직으로 나누기 : Ctrl + b + %
-  - 창 수평으로 나누기 : Ctrl + b + "
-  - 창 간에 이동하기 : Ctrl + b + 화살표
-  - 나뉘어진 창 닫기 : Ctrl + d
-  - 최종 tmux 종료하기 : Ctrl + d
+  - 창 수직으로 나누기 : Ctrl + b + % <br/>
+  - 창 수평으로 나누기 : Ctrl + b + " <br/>
+  - 창 간에 이동하기 : Ctrl + b + 화살표 <br/>
+  - 나뉘어진 창 닫기 : Ctrl + d <br/>
+  - 최종 tmux 종료하기 : Ctrl + d 
 </h5>
