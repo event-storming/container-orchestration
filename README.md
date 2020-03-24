@@ -1,8 +1,8 @@
 ## 교재 편성
->- 이론(60%) 
->- 실습(40%) 
- >>- Labs(80%)
- >>- 설치(20%) : Cloud Client, Kubernetes Client, CLI tool,,             
+>이론(60%) 
+>실습(40%) 
+ >>Labs(80%)
+ >>설치(20%) : Cloud Client, Kubernetes Client, CLI tool,,             
  
 <br/>
 
