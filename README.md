@@ -1,10 +1,3 @@
-## 교재 편성
-- 이론(60%) 
-- 실습(40%) 
- > - Labs(80%)
- > - 설치(20%) : Cloud Client, Kubernetes Client, CLI tool,,             
- 
-<br/>
 
 ## 관련자료
 
@@ -34,3 +27,8 @@ https://portal.azure.com/?quickstart=true#home
 >> - 나뉘어진 창 닫기 : Ctrl+d <br/>
 >> - 최종 tmux 종료하기 : Ctrl+d 
 
+<br/>
+
+## 교재 편성
+- 이론(60%), 실습(40%) 
+- 실습 : Labs(80%), 설치(20%) : Cloud CLI Client, Docker/ Kubernetes Client, etc          
