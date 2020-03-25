@@ -1,5 +1,9 @@
+## 교육 목표
 
-## 관련자료
+- ㅇㅇㅇ
+
+
+## 관련 자료
 
 - PDF 교재: https://github.com/event-storming/container-orchestration/blob/master/Container_Orchestration(Azure)_v2.5.pdf
 
