@@ -1,4 +1,4 @@
-#  Cloud Developing 과정-Docker & Container Orchestration
+#  Cloud Developing 과정 - Docker & Container Orchestration
 
 <br/>
 
