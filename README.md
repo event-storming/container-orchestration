@@ -35,8 +35,6 @@ https://portal.azure.com/?quickstart=true#home
   * Docker & Kubernetes Lab. (80%) 
   * Cloud Client 환경을 위한 로컬 셋업 (20%)   
 
-* 리스트1 + 리스트2 * 서브 리스트1 * 서브리스트 2 - 리스트3 1. 순차 리스트1 2. 순차 리스트2
-
 <br/>
 
 ## 실습 시, 유용한 Tips
