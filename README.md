@@ -1,4 +1,4 @@
-#  Cloud Developing 과정-Docker & Container Orchestration (3 days)
+#  Cloud Developing 과정-Docker & Container Orchestration
 
 <br/>
 
