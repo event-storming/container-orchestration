@@ -29,9 +29,10 @@ https://portal.azure.com/?quickstart=true#home
 
 <br/>
 
-## 교재 편성
-- 이론(60%), 실습(40%) 
-- 실습 : Labs(80%), 설치(20%) : Cloud CLI Client, Docker/ Kubernetes Client, etc   
+## 교재 구성
+* 이론(50%) + 실습(50%)* d * d
+- 실습 
+: Lab(80%), 설치(20%) : Cloud CLI Client, Docker/ Kubernetes Client, etc   
 
 <br/>
 
