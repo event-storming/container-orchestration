@@ -33,7 +33,7 @@ https://portal.azure.com/?quickstart=true#home
 * 이론(50%), 실습(50%)
 * 실습 
   * Docker & Kubernetes Lab. (80%) 
-  * Cloud Client 환경을 위한 로컬 셋업 (20%)   
+  * Cloud Client 환경 구성을 위한 로컬 셋업 (20%)   
 
 <br/>
 
