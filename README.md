@@ -31,7 +31,7 @@ https://portal.azure.com/?quickstart=true#home
 
 ## 교재 구성
 * 이론(50%), 실습(50%)
-       - 실습 
+  * 실습 
 : Lab(80%), 설치(20%) : Cloud CLI Client, Docker/ Kubernetes Client, etc   
 
 * 리스트1 + 리스트2 * 서브 리스트1 * 서브리스트 2 - 리스트3 1. 순차 리스트1 2. 순차 리스트2
