@@ -1,4 +1,4 @@
-#  Cloud Developing 과정 - Docker & Container Orchestration
+#  Cloud Developing 과정-Docker & Container Orchestration (3 days)
 
 <br/>
 
@@ -7,7 +7,7 @@
 - Docker 개념, 구조 및 기본 활용법 이해
 - Container Orchestrator(쿠버네티스, Kubernetes) 아키텍처 및 Manifest 학습
 - Azure Cloud 및 AKS(Azure Kubernetes Service)를 활용한 쿠버네티스 실습
-- Multi/Hybrid Cloud를 위한 로컬 관리환경 셋업 
+- Multi Cloud, Hybrid Cloud를 위한 로컬환경 셋업
 
 <br/>
 
