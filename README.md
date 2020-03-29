@@ -28,7 +28,7 @@ http://eventstorming2code.io/
 https://portal.azure.com/?quickstart=true#home
 
 <br/>
-
+ 
 ## 교재 구성
 * 이론(50%), 실습(50%)
 * 실습 
