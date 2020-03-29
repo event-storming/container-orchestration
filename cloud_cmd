@@ -17,6 +17,7 @@ gcloud docker -- push gcr.io/project-for-msaschool/nginx:v1 (docker 18.03 이하
 
 [Azure] 
 az login
+az account set --subscription "SUBSCRIPTION-NAME"
 az aks create --resource-group my_Resource_Group --name myAKSCluster --node-count 1 --enable-addons monitoring --generate-ssh-keys
 az aks get-credentials --resource-group My_Resource_Group --name My-cluster
 az acr create --resource-group My_Rsrc_Group --name registryname --sku Basic
