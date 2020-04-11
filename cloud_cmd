@@ -18,16 +18,16 @@ gcloud docker -- push gcr.io/project-for-msaschool/nginx:v1 (docker 18.03 이하
 [Azure] 
 az login
 az account set --subscription "SUBSCRIPTION-NAME"
-az aks create --resource-group my_Resource_Group --name myAKSCluster --node-count 1 --enable-addons monitoring --generate-ssh-keys
+az aks create --resource-group my_Resource_Group --name myAKSCluster --node-count 3 --enable-addons monitoring --generate-ssh-keys
 az aks get-credentials --resource-group My_Resource_Group --name My-cluster
 az acr create --resource-group My_Rsrc_Group --name registryname --sku Basic
-az acr login -- name uengineorg
-docker push uengineorg.azurecr.io/cm-sandbox:v1
+az acr login --name uengineorg --expose-token
+docker push use35registry.azurecr.io/cm-sandbox:v1
 
 [AWS]  
 aws configure
-eksctl create cluster --name prod --version 1.15 --nodegroup-name standard-workers --node-type t3.small --nodes 1 --nodes-min 1 --nodes-max 3
-aws eks --region ap-northeast-2 update-kubeconfig --name My-Cluster
-aws ecr create-repository --repository-name sample-repo --image-scanning-configuration scanOnPush=true --region ap-northeast-2
-aws ecr get-login-password --region ap-northeast-2 | docker login --username AWS --password-stdin 283210891307.dkr.ecr.ap-northeast-2.amazonaws.com
-docker push 283210891307.dkr.ecr.ap-northeast-2.amazonaws.com/my-ecr:latest
+eksctl create cluster --name (CLUSTER_NAME) --version 1.15 --nodegroup-name standard-workers --node-type t3.small --nodes 1 --nodes-min 1 --nodes-max 3
+aws eks --region ap-northeast-2 update-kubeconfig --name (CLUSTER_NAME)
+aws ecr create-repository --repository-name (REPOSITORY_NAME) --region ap-northeast-2
+aws ecr get-login-password --region ap-northeast-2 | docker login --username AWS --password-stdin (283210891307).dkr.ecr.ap-northeast-2.amazonaws.com
+docker push (283210891307).dkr.ecr.ap-northeast-2.amazonaws.com/(IMAGE_NAME):latest
