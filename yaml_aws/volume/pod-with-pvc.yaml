@@ -14,9 +14,9 @@ spec:
         cpu: 250m
         memory: 256Mi
     volumeMounts:
-    - mountPath: "/mnt/azure"
+    - mountPath: "/mnt/aws"
       name: volume
   volumes:
     - name: volume
       persistentVolumeClaim:
-        claimName: azure-managed-disk
+        claimName: aws-efs

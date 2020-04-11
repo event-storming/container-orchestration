@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: uengineorg.azurecr.io/nginx-blue:latest
+        image: (account-id).dkr.ecr.ap-northeast-2.amazonaws.com/nginx-blue:latest
         ports:
         - containerPort: 80
 ---

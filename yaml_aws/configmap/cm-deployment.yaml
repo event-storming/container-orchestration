@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: cm
-        image: uengineorg.azurecr.io/cm-sandbox:v1
+        image: (account-id).dkr.ecr.ap-northeast-2.amazonaws.com/cm-sandbox:v1
         imagePullPolicy: Always
         ports:
         - containerPort: 8080

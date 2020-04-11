@@ -1,11 +1,13 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: azure-managed-disk
+  name: aws-efs
+  labels:
+    app: test-pvc
 spec:
   accessModes:
-  - ReadWriteOnce
-  storageClassName: default
+  - ReadWriteMany
   resources:
     requests:
-      storage: 1Gi
+      storage: 1Mi
+  storageClassName: aws-efs

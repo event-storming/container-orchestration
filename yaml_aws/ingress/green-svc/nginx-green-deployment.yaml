@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: uengineorg.azurecr.io/nginx-green:latest
+        image: (account-id).dkr.ecr.ap-northeast-2.amazonaws.com/nginx-green:latest
         ports:
         - containerPort: 80
 ---
