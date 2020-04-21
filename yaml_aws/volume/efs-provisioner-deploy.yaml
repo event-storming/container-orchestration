@@ -22,7 +22,7 @@ spec:
             - name: AWS_REGION
               value: ap-northeast-2
             - name: PROVISIONER_NAME
-              value: my-aws.com
+              value: my-aws.com/aws-efs
           volumeMounts:
             - name: pv-volume
               mountPath: /persistentvolumes
