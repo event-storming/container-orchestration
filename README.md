@@ -6,9 +6,13 @@
 - https://kcloud-academy.signin.aws.amazon.com/console
 - 사용자 계정 : ID: user01 ~ 30, PW: skcc123!
 
-## AWS 콘솔 URL 및 접속 계정
-- https://kcloud-academy.signin.aws.amazon.com/console
-- 사용자 계정 : ID: user01 ~ 30, PW: skcc123!
+<br/>
+
+## Azure 콘솔 URL 및 접속 계정
+- https://
+- 사용자 계정 : 
+
+<br/>
 
 ## 관련 자료
 
