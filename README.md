@@ -17,7 +17,7 @@
 ## 관련 자료
 
 - 실습스크립트 룩업:
-https://workflowy.com/s/msa/27a0ioMCzlpV04Ib#/69f581576ade
+https://workflowy.com/s/msa/27a0ioMCzlpV04Ib
 
 - 페이스북 그룹: 
 https://www.facebook.com/groups/cloudswmoding  
