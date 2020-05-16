@@ -16,6 +16,9 @@
 
 ## 관련 자료
 
+- 쿠버네티스 Cheet key: 
+https://kubernetes.io/ko/docs/reference/kubectl/cheatsheet/
+
 - 실습스크립트 룩업:
 https://workflowy.com/s/msa/27a0ioMCzlpV04Ib
 
