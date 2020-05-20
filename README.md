@@ -4,7 +4,6 @@
 
 ## AWS 콘솔 URL 및 접속 계정
 - https://kcloud-academy.signin.aws.amazon.com/console
-- 사용자 계정 : ID: skcc, PW: skcc123!
 
 <br/>
 
