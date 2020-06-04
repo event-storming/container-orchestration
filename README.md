@@ -2,13 +2,13 @@
 
 <br/>
 
-## AWS 콘솔 URL 및 접속 계정
-- https://kcloud-academy.signin.aws.amazon.com/console
-
+## 관리콘솔 URL 및 접속 계정
+- (AWS) https://kcloud-academy.signin.aws.amazon.com/console
+- (Azure)
 <br/>
 
-## Azure 콘솔 URL 및 접속 계정
-- https://
+## Java 학습을 위한 추천 YouTube
+- https://www.youtube.com/watch?v=qR90tdW0Hbo&list=PLuHgQVnccGMCeAy-2-llhw3nWoQKUvQck
 
 <br/>
 
