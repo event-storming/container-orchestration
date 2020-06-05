@@ -7,9 +7,9 @@
 - (Azure)
 <br/>
 
-## Java 학습을 위한 추천 YouTube
-- https://www.youtube.com/watch?v=qR90tdW0Hbo&list=PLuHgQVnccGMCeAy-2-llhw3nWoQKUvQck
-
+## 원만한 CNA 수강을 위한추천 YouTube
+- JAVA Basic : https://www.youtube.com/watch?v=qR90tdW0Hbo&list=PLuHgQVnccGMCeAy-2-llhw3nWoQKUvQck
+- Spring Data JPA : https://www.youtube.com/playlist?list=PL9mhQYIlKEhfpMVndI23RwWTL9-VL-B7U (1강, 8강)
 <br/>
 
 ## 관련 자료
