@@ -10,6 +10,7 @@
 ## 원만한 CNA 수강을 위한추천 YouTube
 - JAVA Basic : https://www.youtube.com/watch?v=qR90tdW0Hbo&list=PLuHgQVnccGMCeAy-2-llhw3nWoQKUvQck
 - Spring Data JPA : https://www.youtube.com/playlist?list=PL9mhQYIlKEhfpMVndI23RwWTL9-VL-B7U (1강, 8강)
+- REST API 
 <br/>
 
 ## 관련 자료
