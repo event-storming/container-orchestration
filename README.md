@@ -15,6 +15,8 @@
 
 ## 관련 자료
 
+- Windows 카프카 설치: https://blusky10.tistory.com/366
+
 - 쿠버네티스 Cheet key: 
 https://kubernetes.io/ko/docs/reference/kubectl/cheatsheet/
 
