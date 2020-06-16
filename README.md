@@ -3,7 +3,16 @@
 <br/>
 
 ## 관리콘솔 URL 및 접속 계정
-- (AWS) https://kcloud-academy.signin.aws.amazon.com/console
+- (AWS) https://class-skcc.signin.aws.amazon.com/console
+- 계정별 사용 리전코드
+  - admin01~admin03 : us-east-1
+  - admin04~admin05 : us-east-2
+  - admin06~admin08 : ap-northeast-2
+  - admin09~admin11 : ap-northeast-1
+  - admin12~admin14 : ap-southeast-1
+  - admin15~admin17 : ap-southeast-2
+  - admin18~admin20 : ca-central-1
+
 - (Azure)
 <br/>
 
