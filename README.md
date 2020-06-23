@@ -12,6 +12,8 @@
   - admin12~admin14 : ap-southeast-1
   - admin15~admin17 : ap-southeast-2
   - admin18~admin20 : ca-central-1
+  - admin21~admin23 : eu-central-1  
+  - admin24~admin26 : eu-west-1    
 
 - (Azure)
 <br/>
