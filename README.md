@@ -33,7 +33,7 @@
 https://kubernetes.io/ko/docs/reference/kubectl/cheatsheet/
 
 - 실습스크립트 룩업:
-https://workflowy.com/s/msa/27a0ioMCzlpV04Ib
+AWS : https://workflowy.com/s/msa/27a0ioMCzlpV04Ib#/62a296734f02
 
 - 페이스북 그룹: 
 https://www.facebook.com/groups/cloudswmoding  
