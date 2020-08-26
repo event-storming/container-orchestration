@@ -1,0 +1,21 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: web-ingress
+  namespace: ingress-basic
+  annotations:
+    kubernetes.io/ingress.class: nginx
+spec:
+  rules:
+  - host: blue.example.com
+    http:
+      paths:
+      - backend:
+          serviceName: nginx-blue-svc
+          servicePort: 80
+  - host: green.example.com
+    http:
+      paths:
+      - backend:
+          serviceName: nginx-green-svc
+          servicePort: 80
