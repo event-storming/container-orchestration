@@ -1,6 +1,6 @@
 FROM gitpod/workspace-full
 
-USER gitpod
+USER root
 
 RUN mkdir -p /tmp/helm/ \
     && curl -fsSL https://get.helm.sh/helm-v3.5.2-linux-amd64.tar.gz | tar -xzvC /tmp/helm/ --strip-components=1 \
