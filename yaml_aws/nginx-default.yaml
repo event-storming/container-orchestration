@@ -1,9 +1,0 @@
-apiVersion: v1
-kind: Pod
-metadata:
-  name: declarative-pod
-spec:
-  containers:
-  - name: memory-demo-ctr
-    image: nginx:1.7.9
-
