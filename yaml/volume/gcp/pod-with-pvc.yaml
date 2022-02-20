@@ -14,9 +14,9 @@ spec:
         cpu: 250m
         memory: 256Mi
     volumeMounts:
-    - mountPath: "/mnt/aws"
+    - mountPath: "/mnt/gcp"
       name: volume
   volumes:
     - name: volume
       persistentVolumeClaim:
-        claimName: aws-efs
+        claimName: pod-pvc

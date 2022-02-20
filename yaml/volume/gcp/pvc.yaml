@@ -1,0 +1,11 @@
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: pod-pvc
+spec:
+  accessModes:
+  - ReadWriteMany
+  storageClassName: standard-rwx
+  resources:
+    requests:
+      storage: 1Ti
