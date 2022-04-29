@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx-blue-deployment
-  namespace: ingress-basic
+  namespace: ingress-nginx
   labels:
     app: blue-nginx-deploy
 spec:
@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: uengineorg.azurecr.io/nginx-blue:latest
+        image: apexacme/blue:v1
         ports:
         - containerPort: 80
 ---
@@ -25,7 +25,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: nginx-blue-svc
-  namespace: ingress-basic
+  namespace: ingress-nginx
 spec:
   selector:
     app: blue-nginx
