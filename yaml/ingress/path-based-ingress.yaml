@@ -1,21 +1,27 @@
-apiVersion: extensions/v1beta1
+apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: path-ingress
-  namespace: ingress-basic
+  namespace: ingress-nginx
   annotations:
-    kubernetes.io/ingress.class: nginx
     nginx.ingress.kubernetes.io/rewrite-target: /
     nginx.ingress.kubernetes.io/ssl-redirect: "false"
+    ingressclass.kubernetes.io/is-default-class: "true"
 spec:
   rules:
   - http:
       paths:
       - path: /blue
+        pathType: Prefix
         backend:
-          serviceName: nginx-blue-svc
-          servicePort: 80
+          service:
+            name: nginx-blue-svc
+            port:
+              number: 80
       - path: /green
+        pathType: Prefix
         backend:
-          serviceName: nginx-green-svc
-          servicePort: 80
+          service:
+            name: nginx-green-svc
+            port:
+              number: 80
