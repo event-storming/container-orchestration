@@ -8,6 +8,7 @@ metadata:
     nginx.ingress.kubernetes.io/ssl-redirect: "false"
     ingressclass.kubernetes.io/is-default-class: "true"
 spec:
+  ingressClassName: nginx
   rules:
   - http:
       paths:
